@@ -1,0 +1,15 @@
+file_list:
+    fields:   10
+    fields:   'files(id, name, webViewLink)'
+    order_by: 'folder'
+    query:    "mimeType = 'application/vnd.google-apps.folder' and trashed=false"
+file_download:
+    item_id:   'foo'
+    item_name: 'dummy.xlsx'
+file_upload:
+    folder_id: 'bar'
+    file_name: 'dummy.xlsx'
+    mine_type: 'application/vnd.ms-excel'
+create_folder:
+    dir_name:      'gdrap'
+    parent_dir_id: 'baz'
